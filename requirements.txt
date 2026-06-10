@@ -1,3 +1,6 @@
 transformers
 spacy
 torch
+sentence-transformers
+pinecone
+numpy
