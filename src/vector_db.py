@@ -21,4 +21,4 @@ index.upsert(
     ]
 )
 
-print("Vector stored successfully!")
+print("Vector successfully stored !")
