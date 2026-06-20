@@ -1,12 +1,5 @@
-fastapi
-uvicorn[standard]
-python-dotenv
-pydantic-settings
-python-multipart
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+pydantic-settings>=2.2.1
 
-transformers
-spacy
-torch
-sentence-transformers
-pinecone
-numpy
