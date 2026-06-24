@@ -100,6 +100,8 @@ async def save_upload_file(file) -> dict:
         "filename": original_filename,
         "content_type": detected_content_type,
         "size_bytes": size_bytes,
-        "saved_path": str(save_path.relative_to(Path.cwd())),
+        # Avoid relative_to(Path.cwd()) which can fail depending on working directory.
+        "saved_path": str(save_path),
+
     }
 
