@@ -1,14 +1,12 @@
-# M3 Week 1 - FastAPI upload endpoint (tracking)
+# TODO - M3 Week 4 (Dockerize Backend + API)
 
-- [x] Create production-ready FastAPI structure (app/ package)
-- [x] Implement FastAPI boilerplate and router wiring
-- [x] Implement /upload endpoint for PDF/DOCX
-- [x] Add file validation and save to uploads/ directory
-- [x] Add settings/config module (pydantic-settings)
-- [x] Add logging module
-- [x] Add clean structured JSON responses
-- [x] Add error handling
-- [x] Prepare async task structure for future Celery integration
-- [ ] Generate/verify requirements.txt
-- [ ] Run uvicorn app.main:app --reload and test endpoint
+- [ ] Step 1: Inspect entire backend project (done - no changes)
+- [ ] Step 2: Check requirements.txt for missing deps (done - no changes)
+- [ ] Step 3: Create Docker support (plan + files + explanations)
+- [ ] Step 4: Configure Docker without changing backend functionality
+- [ ] Step 5: Build Docker image (commands + explanation)
+- [ ] Step 6: Run Docker container + verify API availability
+- [ ] Step 7: Test every existing API endpoint (upload and anything else discovered)
+- [ ] Step 8: If Docker errors occur, fix only Docker-related issues
+- [ ] Step 9: Provide git commands (status/add/commit/push)
 
